@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cute Umamusume Header</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff; /* ページ全体の背景を白に設定 */
+    }
+    .header {
+      background-color: #000000; /* ヘッダーの背景を黒に設定 */
+      height: 5cm; /* ヘッダーの高さを5cmに設定 */
+      display: flex;
+      align-items: center; /* 垂直方向の中央揃え */
+      padding: 0 20px; /* 左右のパディング */
+    }
+    .nav-link {
+      padding: 10px 20px;
+      text-decoration: none;
+      font-size: 18px;
+      color: #ffffff; /* 常に白色のテキスト */
+      transition: background-color 0.3s ease, color 0.3s ease; /* 背景と文字色のトランジション */
+    }
+    .nav-link:hover {
+      background-color: #ffffff; /* ホバー時に白色の背景 */
+      color: #000000; /* ホバー時に黒色のテキスト */
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a class="nav-link" href="/">NFM</a>
+    <a class="nav-link" href="/orders/">商品提供</a>
+    <a class="nav-link" href="/profile/">ポイント交換</a>
+    <a class="nav-link" href="/account/">マイページ</a>
+    <a class="nav-link" href="/cart/">カート</a>
+  </div>
+</body>
+</html>
