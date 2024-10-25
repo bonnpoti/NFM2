@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umamusume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff; /* 背景を白に設定 */
+    }
+    .container {
+      position: relative;
+      overflow: hidden;
+      padding: 3rem;
+      padding-bottom: 5rem;
+      text-align: center;
+      background-color: #ffffff; /* 背景を白に設定 */
+    }
+    h1 {
+      font-size: 3.5rem;
+      font-weight: normal;
+      color: #000000; /* 黒色のテキスト */
+    }
+    p {
+      font-size: 1.25rem;
+      font-weight: normal;
+      color: #000000; /* 黒色のテキスト */
+    }
+    .product-device {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      width: 25%;
+      background-color: #ffffff; /* 背景を白に設定 */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    }
+    .product-device-2 {
+      right: auto;
+      left: 0;
+      width: 25%;
+      background-color: #ffffff; /* 背景を白に設定 */
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* 影を追加 */
+    }
+    @media (min-width: 768px) {
+      .container {
+        padding: 5rem;
+        padding-bottom: 10rem;
+      }
+      h1 {
+        font-size: 4.5rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="col-md-5 mx-auto my-5">
+      <h1 class="display-4">NFM</h1>
+      <p class="lead">コンテンツ置き場</p>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+</body>
+</html>
